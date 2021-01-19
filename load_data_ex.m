@@ -1,5 +1,4 @@
 clear all;
-startup_bbci_toolbox
 
 %% Load Isolated data
 BTB.DataDir = 'A:\Scientific_data';
