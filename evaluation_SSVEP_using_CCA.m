@@ -1,3 +1,5 @@
+startup_bbci_toolbox;
+
 %% CCA based classifier
 AUC_all = []; mean_AUC=[];
 
