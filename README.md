@@ -15,4 +15,5 @@ We present a mobile dataset of electroencephalography (EEG) from scalp and ear a
 - evaluation_SSVEP_using_CCA: Evaluating the dataset of SSVEP for all subjects and speeds using Canonical Correlation Analysis (CCA). (Matlab)
 
 ### Developing Environment
-Matlab 2019b
+- Matlab 2019b
+- BBCI toolbox (https://github.com/bbci/bbci_public)
