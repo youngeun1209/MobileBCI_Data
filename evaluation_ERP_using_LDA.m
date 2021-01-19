@@ -1,3 +1,5 @@
+startup_bbci_toolbox;
+
 %%
 ival_cfy_fixing = 1; % 1:ture // fixing
 
