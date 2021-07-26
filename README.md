@@ -1,16 +1,15 @@
 # Mobile BCI Data
 
-Example codes for "Mobile BCI dataset of scalp- and ear-EEG with ERP and SSVEP paradigms during standing, walking, and running."
+Example codes for "Mobile BCI dataset of scalp- and ear-EEGs with ERP and SSVEP paradigms while standing, walking, and running."
 
-The dataset is available in figshare repository (https://doi.org/10.6084/m9.figshare.13604078) under the terms of Attribution 4.0 International Creative Commons License (http://creativecommons.org/licenses/by/4.0/).
+The dataset is available in Open Science Framework repository (https://doi.org/10.17605/OSF.IO/R7S9B) under the terms of Attribution 4.0 International Creative Commons License (http://creativecommons.org/licenses/by/4.0/).
 
 
 ## Description
-We present a mobile dataset of electroencephalography (EEG) from scalp and ear and locomotion sensors collected from 18 subjects moving at different speeds while performing brain-computer interface (BCI) tasks. The experiments were performed under 16 different conditions (2 types of EEG devices x 4 speeds of movements x 2 types of BCI paradigms). The data were collected from 32-channel scalp-EEG, 14-channel ear-EEG, 4-channel electrooculography, and 3 inertial measurement units at the forehead, left ankle, and right ankle simultaneously. The conditions of recording were standing, slow walking, fast walking, and slight running at speeds of 0, 0.8, 1.6, and 2.0 m/sec, respectively. At each speed, two different BCI paradigms, event-related potential (ERP) and steady-state visual evoked potential (SSVEP), were recorded. To evaluate the signal quality, scalp- and ear-EEG data were qualitatively and quantitatively validated at each speed. We expect that the dataset will facilitate BCIs in diverse mobile environments to analyze brain activities and to evaluate the performance quantitatively, so as to broaden the use of practical BCIs.
+A mobile dataset obtained from electroencephalography (EEG) of the scalp and around the ear as well as from locomotion sensors by 24 participants moving at four different speeds while performing two brain-computer interface (BCI) tasks. The data were collected from 32-channel scalp-EEG, 14-channel ear-EEG, 4-channel electrooculography, and 9-channel inertial measurement units placed at the forehead, left ankle, and right ankle.
 
 ## Code List
-- Load_all_data: loading the dataset of all subjects, modalities, and speeds for each paradigm. (Matlab)
-- Load_data_ex: loading the dataset of all subjects and speeds for each modality and paradigm. (Matlab)
+- load_all_data: loading the dataset of all subjects, modalities, and speeds for each paradigm using BBCI toolbox. (Matlab)
 - evaluation_ERP_using_LDA: Evaluating the dataset of ERP for all subjects and speeds using Linear Discriminator Analysis (LDA). (Matlab)
 - evaluation_SSVEP_using_CCA: Evaluating the dataset of SSVEP for all subjects and speeds using Canonical Correlation Analysis (CCA). (Matlab)
 
