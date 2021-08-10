@@ -16,3 +16,7 @@ A mobile dataset obtained from electroencephalography (EEG) of the scalp and aro
 ### Developing Environment
 - Matlab 2019b
 - BBCI toolbox (https://github.com/bbci/bbci_public)
+
+Contact:
+Young-Eun Lee
+ye_lee@korea.ac.kr
