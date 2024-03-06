@@ -20,3 +20,6 @@ A mobile dataset obtained from electroencephalography (EEG) of the scalp and aro
 Contact:
 Young-Eun Lee
 ye_lee@korea.ac.kr
+
+## Citation
+Lee, Young-Eun, et al. "Mobile BCI dataset of scalp-and ear-EEGs with ERP and SSVEP paradigms while standing, walking, and running." Scientific data 8.1 (2021): 315.
